@@ -4,13 +4,7 @@ import { store } from './store';
 import axios from 'axios';
 var client = null;
 
-var googleProviderOptions = {
-    openIdSupport: "oid-full",
-    clientId: "818107347175-f213lcch3s666e55si5eo03nkql2v977.apps.googleusercontent.com",
-    redirectUri: "com.googleusercontent.apps.818107347175-f213lcch3s666e55si5eo03nkql2v977:/auth",
-    urlScheme: "com.googleusercontent.apps.818107347175-f213lcch3s666e55si5eo03nkql2v977",
-    scopes: ["profile"]
-};
+
 /*var googleProviderOptions = {
     openIdSupport: "oid-full",
     clientId: "",
